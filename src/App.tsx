@@ -1,4 +1,4 @@
-/* eslint-disable @typescript-eslint/no-use-before-define */
+//* eslint-disable @typescript-eslint/no-use-before-define */
 
 //IMPORTANT NOTE: TO UNDERSTAND HOW THINGS LIKE TEXT IMPORTS WORK, READ THE README
 
