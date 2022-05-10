@@ -1,9 +1,9 @@
-/* eslint-disable @typescript-eslint/no-use-before-define */
+//* eslint-disable @typescript-eslint/no-use-before-define */
 
 //IMPORTANT NOTE: TO UNDERSTAND HOW THINGS LIKE TEXT IMPORTS WORK, READ THE README
 
 import "./App.css"
-export default function MacBookPro141(props: MacBookPro141Interface) {
+function App() {
   return (
     <div className="mac-book-pro141-container">
       <div className="macBookPro142">
@@ -42,11 +42,5 @@ export default function MacBookPro141(props: MacBookPro141Interface) {
   )
 }
 
-MacBookPro141.defaultProps = {
-  variant: 'DEFAULT',
-}
-
-interface MacBookPro141Interface {
-  variant: 'DEFAULT';
-}
+export default App;
 
