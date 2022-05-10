@@ -2,6 +2,7 @@
   "name": "typescript-template",
   "version": "1.0.0",
   "private": false,
+  "homepage": ".",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -25,8 +26,7 @@
   "devDependencies": {
     "@babel/runtime": "7.13.8"
   },
-  "keywords": [],
-  "main": "src/index.js",
+  "keywords": [],  
   "browserslist": [
     ">0.2%",
     "not dead",
