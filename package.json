@@ -1,29 +1,36 @@
 {
+  "name": "typescript-template",
+  "version": "1.0.0",
+  "private": false,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "deploy": "npm version patch && npm run deploy:app",
+    "deploy:app": "npm version patch --prefix public && npm run build && npm publish ./build --access public",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@types/jest": "^27.4.0",
+    "@types/node": "^16.11.21",
+    "@types/react": "^18.0.9",
+    "@types/react-dom": "^18.0.3",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "react-scripts": "5.0.0",
+    "typescript": "^4.5.5",
+    "web-vitals": "^2.1.4"
+  },
+  "description": "",
+  "devDependencies": {
+    "@babel/runtime": "7.13.8"
+  },
+  "keywords": [],
+  "main": "src/index.js",
   "browserslist": [
     ">0.2%",
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ],
-  "dependencies": {
-    "react": "18.0.0",
-    "react-dom": "18.0.0",
-    "react-scripts": "4.0.0",
-    "webfontloader": "1.6.28"
-  },
-  "description": "",
-  "devDependencies": {
-    "@babel/runtime": "7.13.8",
-    "typescript": "4.1.3"
-  },
-  "keywords": [],
-  "main": "src/index.js",
-  "name": "typescript-template",
-  "scripts": {
-    "build": "react-scripts build",
-    "eject": "react-scripts eject",
-    "start": "react-scripts start",
-    "test": "react-scripts test --env=jsdom"
-  },
-  "version": "1.0.0"
+  ]
 }
